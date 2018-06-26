@@ -5,7 +5,7 @@
 	"description" : "Adds User data to BGG and BGG Market Place",
 	"content_scripts": [
 		{
-		  "matches": ["http://www.boardgamegeek.com/*"],
+		  "matches": ["https://www.boardgamegeek.com/*"],
 		  "js": ["jquery-3.3.1.js", "boardgamegeek_user_data.js"]
 		}
     ],
